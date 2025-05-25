@@ -53,7 +53,7 @@ const About = () => {
                   src="/about.jpg?height=400&width=400"
                   alt="Woman with beautiful curly hair"
                   fill
-                  className="object-cover rounded-2xl"
+                  className="object-cover  rounded-2xl"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
                 />
               </div>
