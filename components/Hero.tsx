@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none mx-auto order-1 lg:order-2">
             <div className="relative aspect-[4/5] w-full">
               <Image
-                src="/placeholder.svg?height=500&width=400"
+                src="/hero.jpg?height=500&width=400"
                 alt="Woman with vibrant styled hair"
                 fill
                 className="object-cover rounded-2xl"

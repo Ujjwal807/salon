@@ -50,7 +50,7 @@ const About = () => {
             <div className="relative w-full max-w-xs sm:max-w-sm lg:max-w-none">
               <div className="relative aspect-square w-full">
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/about.jpg?height=400&width=400"
                   alt="Woman with beautiful curly hair"
                   fill
                   className="object-cover rounded-2xl"
