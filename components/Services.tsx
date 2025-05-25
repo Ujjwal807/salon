@@ -56,11 +56,11 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 hover:border-gray-300 hover:shadow-xl transition-all duration-300"
             >
-              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-purple-600 transition-colors duration-300">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gray-100 rounded-2xl flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-black transition-colors duration-300">
                 <service.icon
-                  className="text-purple-600 group-hover:text-white transition-colors duration-300"
+                  className="text-gray-900 group-hover:text-white transition-colors duration-300"
                   size={24}
                 />
               </div>
@@ -69,8 +69,8 @@ const Services = () => {
               <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">{service.description}</p>
 
               <div className="flex items-center justify-between">
-                <span className="text-base sm:text-lg font-bold text-purple-600">{service.price}</span>
-                <button className="text-sm sm:text-base text-purple-600 hover:text-purple-700 font-medium transition-colors">
+                <span className="text-base sm:text-lg font-bold text-black">{service.price}</span>
+                <button className="text-sm sm:text-base text-black hover:text-gray-700 font-medium transition-colors">
                   Learn More →
                 </button>
               </div>
@@ -81,7 +81,7 @@ const Services = () => {
         <div className="pt-8 sm:pt-12 flex justify-center">
           <Button
             variant="outline"
-            className="border-[#8b5cf6] text-[#8b5cf6] hover:bg-[#8b5cf6] hover:text-white rounded-full px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base lg:text-lg font-medium w-full sm:w-auto max-w-xs sm:max-w-none"
+            className="border-black text-black hover:bg-black hover:text-white rounded-full px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base lg:text-lg font-medium w-full sm:w-auto max-w-xs sm:max-w-none"
           >
             Show All Services
           </Button>

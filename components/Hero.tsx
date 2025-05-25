@@ -5,14 +5,14 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-gradient-to-br from-purple-100 via-purple-50 to-white py-12 sm:py-16 lg:py-20 overflow-hidden min-h-[70vh] sm:min-h-[80vh]"
+      className="relative bg-gradient-to-br from-gray-50 to-white py-12 sm:py-16 lg:py-20 overflow-hidden min-h-[70vh] sm:min-h-[80vh]"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           {/* Text Content */}
           <div className="text-center lg:text-left order-2 lg:order-1">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mb-6 sm:mb-8">
-              <span className="text-purple-600">Hair by Design:</span>
+              <span className="text-black">Hair by Design:</span>
               <br />
               <span className="text-gray-900">Where Imagination</span>
               <br />
@@ -24,7 +24,7 @@ const Hero = () => {
               style.
             </p>
 
-            <button className="bg-purple-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-purple-700 transition-all duration-300 font-medium flex items-center gap-2 mx-auto lg:mx-0 text-sm sm:text-base">
+            <button className="bg-black hover:bg-gray-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg transition-all duration-300 font-medium flex items-center gap-2 mx-auto lg:mx-0 text-sm sm:text-base">
               Get Started
               <ArrowRight size={18} className="sm:w-5 sm:h-5" />
             </button>
@@ -47,8 +47,8 @@ const Hero = () => {
       </div>
 
       {/* Background Decorative Elements */}
-      <div className="absolute top-10 right-10 w-20 h-20 bg-purple-200/30 rounded-full blur-xl"></div>
-      <div className="absolute bottom-20 left-10 w-32 h-32 bg-purple-300/20 rounded-full blur-xl"></div>
+      <div className="absolute top-10 right-10 w-20 h-20 bg-gray-200/30 rounded-full blur-xl"></div>
+      <div className="absolute bottom-20 left-10 w-32 h-32 bg-gray-300/20 rounded-full blur-xl"></div>
     </section>
   )
 }

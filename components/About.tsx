@@ -10,14 +10,16 @@ const About = () => {
   ]
 
   return (
-    <section id="about" className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-purple-50 to-white">
+    <section id="about" className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           {/* Content */}
           <div className="order-2 lg:order-1">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">About Bella Salon</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+              About Boho Unisex Salon
+            </h2>
             <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-              Located in the heart of Koregaon Park, Pune, Bella Salon has been serving the beauty needs of our
+              Located in the heart of Pimpri-Chinchwad, Pune, Boho Unisex Salon has been serving the beauty needs of our
               community for over 5 years. We pride ourselves on providing exceptional service in a welcoming and
               luxurious environment.
             </p>
@@ -31,10 +33,10 @@ const About = () => {
               {stats.map((stat, index) => (
                 <div
                   key={index}
-                  className="text-center p-3 sm:p-4 lg:p-6 bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300"
+                  className="text-center p-3 sm:p-4 lg:p-6 bg-white rounded-lg sm:rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-300"
                 >
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-3">
-                    <stat.icon className="text-purple-600" size={16} />
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-3">
+                    <stat.icon className="text-gray-900" size={16} />
                   </div>
                   <div className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">{stat.number}</div>
                   <div className="text-xs sm:text-sm text-gray-600">{stat.label}</div>
