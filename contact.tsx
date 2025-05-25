@@ -61,16 +61,16 @@ const Contact = () => {
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Email Us</h3>
                 <div className="space-y-1">
                   <a
-                    href="mailto:info@bellasalon.com"
+                    href="mailto:info@bohounisexsalon.com"
                     className="block text-sm sm:text-base text-gray-600 hover:text-purple-600 transition-colors break-all"
                   >
-                    info@bellasalon.com
+                    info@bohounisexsalon.com
                   </a>
                   <a
-                    href="mailto:bookings@bellasalon.com"
+                    href="mailto:bookings@bohounisexsalon.com"
                     className="block text-sm sm:text-base text-gray-600 hover:text-purple-600 transition-colors break-all"
                   >
-                    bookings@bellasalon.com
+                    bookings@bohounisexsalon.com
                   </a>
                 </div>
               </div>

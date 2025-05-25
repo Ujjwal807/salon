@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="sm:col-span-2 lg:col-span-2">
             <div className="mb-4 sm:mb-6">
-              <h3 className="text-xl sm:text-2xl font-bold">Bella Salon</h3>
+              <h3 className="text-xl sm:text-2xl font-bold">Boho Unisex Salon</h3>
               <p className="text-xs sm:text-sm text-purple-400">Beauty & Wellness</p>
             </div>
             <p className="text-sm sm:text-base text-gray-400 mb-6 sm:mb-8 leading-relaxed max-w-md">
@@ -103,10 +103,10 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Mail size={14} className="text-purple-400 flex-shrink-0 sm:w-4 sm:h-4" />
                 <a
-                  href="mailto:info@bellasalon.com"
+                  href="mailto:info@bohounisexsalon.com"
                   className="text-xs sm:text-sm text-gray-400 hover:text-purple-400 transition-colors break-all"
                 >
-                  info@bellasalon.com
+                  info@bohounisexsalon.com
                 </a>
               </div>
             </div>
@@ -117,7 +117,7 @@ const Footer = () => {
           <p className="text-sm sm:text-base text-gray-400 flex items-center justify-center gap-2 mb-2 sm:mb-3">
             Made with <Heart size={14} className="text-purple-400 sm:w-4 sm:h-4" /> for beautiful you
           </p>
-          <p className="text-xs sm:text-sm text-gray-500">© 2024 Bella Salon. All rights reserved.</p>
+          <p className="text-xs sm:text-sm text-gray-500">© 2024 Boho Unisex Salon. All rights reserved.</p>
         </div>
       </div>
     </footer>

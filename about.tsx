@@ -15,9 +15,9 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           {/* Content */}
           <div className="order-2 lg:order-1">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">About Bella Salon</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">About Boho Unisex  Salon</h2>
             <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-              Located in the heart of Koregaon Park, Pune, Bella Salon has been serving the beauty needs of our
+              Located in the heart of Koregaon Park, Pune, Boho Unisex Salon has been serving the beauty needs of our
               community for over 5 years. We pride ourselves on providing exceptional service in a welcoming and
               luxurious environment.
             </p>
