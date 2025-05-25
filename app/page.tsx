@@ -43,7 +43,7 @@ import Navbar from "@/components/Navbar";
 // Main SalonLanding Component
 export default function SalonLanding() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f3e8ff] via-[#faf5ff] to-[#ffffff]">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
       {/* Main Content Container */}
       <div className="mx-0 sm:mx-4 lg:mx-10 px-0 sm:px-4 py-0 sm:py-4 lg:py-8">
         <div className="bg-white rounded-none sm:rounded-2xl lg:rounded-3xl shadow-none sm:shadow-xl lg:shadow-2xl overflow-hidden">
