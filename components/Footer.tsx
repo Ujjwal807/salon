@@ -1,12 +1,4 @@
-import {
-  Heart,
-  MapPin,
-  Phone,
-  Mail,
-  Instagram,
-  Facebook,
-  Twitter,
-} from "lucide-react";
+import { Heart, Phone, Mail, MapPin, Instagram, Facebook, Twitter } from "lucide-react"
 
 const Footer = () => {
   return (
@@ -16,15 +8,12 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="sm:col-span-2 lg:col-span-2">
             <div className="mb-4 sm:mb-6">
-              <h3 className="text-xl sm:text-2xl font-bold">Boho Unisex Salon</h3>
-              <p className="text-xs sm:text-sm text-purple-400">
-                Beauty & Wellness
-              </p>
+              <h3 className="text-xl sm:text-2xl font-bold">Bella Salon</h3>
+              <p className="text-xs sm:text-sm text-purple-400">Beauty & Wellness</p>
             </div>
             <p className="text-sm sm:text-base text-gray-400 mb-6 sm:mb-8 leading-relaxed max-w-md">
-              Transform your beauty at Pune's premier salon. We offer
-              professional hair styling, skincare, and beauty treatments with a
-              focus on excellence and customer satisfaction.
+              Transform your beauty at Pune's premier salon. We offer professional hair styling, skincare, and beauty
+              treatments with a focus on excellence and customer satisfaction.
             </p>
             <div className="flex gap-3 sm:gap-4">
               <a
@@ -53,15 +42,10 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="sm:col-span-1">
-            <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">
-              Quick Links
-            </h4>
+            <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Quick Links</h4>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <a
-                  href="#home"
-                  className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors"
-                >
+                <a href="#home" className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors">
                   Home
                 </a>
               </li>
@@ -74,10 +58,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#about"
-                  className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors"
-                >
+                <a href="#about" className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors">
                   About Us
                 </a>
               </li>
@@ -90,18 +71,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors"
-                >
+                <a href="#" className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors">
                   Gallery
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors"
-                >
+                <a href="#" className="text-sm sm:text-base text-gray-400 hover:text-purple-400 transition-colors">
                   Reviews
                 </a>
               </li>
@@ -110,41 +85,28 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="sm:col-span-1">
-            <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">
-              Contact Info
-            </h4>
+            <h4 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Contact Info</h4>
             <div className="space-y-3 sm:space-y-4">
               <div className="flex items-start gap-3">
-                <MapPin
-                  size={14}
-                  className="text-purple-400 mt-0.5 flex-shrink-0 sm:w-4 sm:h-4"
-                />
-                <span className="text-xs sm:text-sm text-gray-400 leading-relaxed">
-                  Pimpri-Chinchwad, Pune
-                </span>
+                <MapPin size={14} className="text-purple-400 mt-0.5 flex-shrink-0 sm:w-4 sm:h-4" />
+                <span className="text-xs sm:text-sm text-gray-400 leading-relaxed">Koregaon Park, Pune</span>
               </div>
               <div className="flex items-center gap-3">
-                <Phone
-                  size={14}
-                  className="text-purple-400 flex-shrink-0 sm:w-4 sm:h-4"
-                />
+                <Phone size={14} className="text-purple-400 flex-shrink-0 sm:w-4 sm:h-4" />
                 <a
-                  href="tel:+917276135735"
+                  href="tel:+919876543210"
                   className="text-xs sm:text-sm text-gray-400 hover:text-purple-400 transition-colors"
                 >
-                  +91 72761 35735
+                  +91 98765 43210
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <Mail
-                  size={14}
-                  className="text-purple-400 flex-shrink-0 sm:w-4 sm:h-4"
-                />
+                <Mail size={14} className="text-purple-400 flex-shrink-0 sm:w-4 sm:h-4" />
                 <a
-                  href="mailto:info@bohounisexsalon.com"
+                  href="mailto:info@bellasalon.com"
                   className="text-xs sm:text-sm text-gray-400 hover:text-purple-400 transition-colors break-all"
                 >
-                  info@bohounisexsalon.com
+                  info@bellasalon.com
                 </a>
               </div>
             </div>
@@ -153,17 +115,13 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-6 sm:pt-8 text-center">
           <p className="text-sm sm:text-base text-gray-400 flex items-center justify-center gap-2 mb-2 sm:mb-3">
-            Made with{" "}
-            <Heart size={14} className="text-purple-400 sm:w-4 sm:h-4" /> for
-            beautiful you
+            Made with <Heart size={14} className="text-purple-400 sm:w-4 sm:h-4" /> for beautiful you
           </p>
-          <p className="text-xs sm:text-sm text-gray-500">
-            © 2024 Boho Unisex Salon. All rights reserved.
-          </p>
+          <p className="text-xs sm:text-sm text-gray-500">© 2024 Bella Salon. All rights reserved.</p>
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
