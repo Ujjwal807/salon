@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="sm:col-span-2 lg:col-span-2">
             <div className="mb-4 sm:mb-6">
-              <h3 className="text-xl sm:text-2xl font-bold">Bella Salon</h3>
+              <h3 className="text-xl sm:text-2xl font-bold">Boho Unisex Salon</h3>
               <p className="text-xs sm:text-sm text-purple-400">
                 Beauty & Wellness
               </p>
@@ -120,7 +120,7 @@ const Footer = () => {
                   className="text-purple-400 mt-0.5 flex-shrink-0 sm:w-4 sm:h-4"
                 />
                 <span className="text-xs sm:text-sm text-gray-400 leading-relaxed">
-                  Koregaon Park, Pune
+                  Pimpri-Chinchwad, Pune
                 </span>
               </div>
               <div className="flex items-center gap-3">
@@ -129,10 +129,10 @@ const Footer = () => {
                   className="text-purple-400 flex-shrink-0 sm:w-4 sm:h-4"
                 />
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+917276135735"
                   className="text-xs sm:text-sm text-gray-400 hover:text-purple-400 transition-colors"
                 >
-                  +91 98765 43210
+                  +91 72761 35735
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -141,10 +141,10 @@ const Footer = () => {
                   className="text-purple-400 flex-shrink-0 sm:w-4 sm:h-4"
                 />
                 <a
-                  href="mailto:info@bellasalon.com"
+                  href="mailto:info@bohounisexsalon.com"
                   className="text-xs sm:text-sm text-gray-400 hover:text-purple-400 transition-colors break-all"
                 >
-                  info@bellasalon.com
+                  info@bohounisexsalon.com
                 </a>
               </div>
             </div>
@@ -158,7 +158,7 @@ const Footer = () => {
             beautiful you
           </p>
           <p className="text-xs sm:text-sm text-gray-500">
-            © 2024 Bella Salon. All rights reserved.
+            © 2024 Boho Unisex Salon. All rights reserved.
           </p>
         </div>
       </div>

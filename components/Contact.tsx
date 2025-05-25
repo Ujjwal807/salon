@@ -21,9 +21,9 @@ const Contact = () => {
               <div>
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Visit Our Salon</h3>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                  123, Lane 5, Koregaon Park
+                  Shop 57, VJ happiness street, Hinjawadi Rajiv Gandhi Infotech Park,
                   <br />
-                  Pune, Maharashtra 411001
+                  Pimpri-Chinchwad, Pune, Maharashtra 411057,
                   <br />
                   India
                 </p>
@@ -38,16 +38,16 @@ const Contact = () => {
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Call Us</h3>
                 <div className="space-y-1">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+917276135735"
                     className="block text-sm sm:text-base text-gray-600 hover:text-purple-600 transition-colors"
                   >
-                    +91 98765 43210
+                    +91 7276135735
                   </a>
                   <a
-                    href="tel:+918765432109"
+                    href="tel:+917276135735"
                     className="block text-sm sm:text-base text-gray-600 hover:text-purple-600 transition-colors"
                   >
-                    +91 87654 32109
+                    +91 7276135735
                   </a>
                 </div>
               </div>
@@ -61,16 +61,16 @@ const Contact = () => {
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Email Us</h3>
                 <div className="space-y-1">
                   <a
-                    href="mailto:info@bellasalon.com"
+                    href="mailto:info@bohounisexsalon.com"
                     className="block text-sm sm:text-base text-gray-600 hover:text-purple-600 transition-colors break-all"
                   >
-                    info@bellasalon.com
+                    info@bohounisexsalon.com
                   </a>
                   <a
-                    href="mailto:bookings@bellasalon.com"
+                    href="mailto:bookings@bohounisexsalon.com"
                     className="block text-sm sm:text-base text-gray-600 hover:text-purple-600 transition-colors break-all"
                   >
-                    bookings@bellasalon.com
+                    bookings@bohounisexsalon.com
                   </a>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                   Monday - Sunday
                   <br />
-                  10:00 AM - 8:00 PM
+                  11:30 AM - 10:30 PM
                 </p>
               </div>
             </div>
